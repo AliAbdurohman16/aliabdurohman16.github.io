@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Ali Abdurohman</title>
-    <link rel="stylesheet" href="assets/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="https://storage.googleapis.com/dicoding-project-404202.appspot.com/assets/css/style.css">
 </head>
 
 <body>
@@ -71,7 +71,7 @@
                     </div>
                     <div class="home-img">
                         <div class="img-box">
-                            <img src="assets/img/profile/ali-2.png" alt="profile-img">
+                            <img src="https://storage.googleapis.com/dicoding-project-404202.appspot.com/assets/img/profile/ali-2.png" alt="profile-img">
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                 <div class="row">
                     <div class="about-img">
                         <div class="img-box">
-                            <img src="assets/img/profile/ali.png" alt="about img">
+                            <img src="https://storage.googleapis.com/dicoding-project-404202.appspot.com/assets/img/profile/ali.png" alt="about img">
                         </div>
                     </div>
                     <div class="about-text">
@@ -168,7 +168,7 @@
                         </div>
                         <!-- Experience End -->
 
-                        <a href="assets/img/cv/Ali_Abdurohman-resume.pdf" target="_blank" class="btn">Download CV</a>
+                        <a href="https://storage.googleapis.com/dicoding-project-404202.appspot.com/assets/img/cv/Ali_Abdurohman-resume.pdf" target="_blank" class="btn">Download CV</a>
                         <a href="#contact" class="btn link-item">Contact Me</a>
 
                     </div>
@@ -187,9 +187,9 @@
                 </div>
                 <div class="row">
                     <!-- Portfolio Item Start -->
-                    <!-- <div class="portfolio-item">
+                    <div class="portfolio-item">
                         <div class="portfolio-item-thumbnail">
-                            <img src="assets/img/portfolio/sikuku.png" alt="portfolio item thumbnail">
+                            <img src="https://storage.googleapis.com/dicoding-project-404202.appspot.com/assets/img/portfolio/sikuku.png" alt="portfolio item thumbnail">
                         </div>
                         <h3 class="portfolio-item-title">Sistem Kuliner Kuningan (SIKUKU)</h3>
                         <button type="button" class="btn view-project-btn">View Project</button>
@@ -206,11 +206,11 @@
                                 </ul>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
 
                     <div class="portfolio-item">
                         <div class="portfolio-item-thumbnail">
-                            <img src="assets/img/portfolio/sipedes.png" alt="portfolio item thumbnail">
+                            <img src="https://storage.googleapis.com/dicoding-project-404202.appspot.com/assets/img/portfolio/sipedes.png" alt="portfolio item thumbnail">
                         </div>
                         <h3 class="portfolio-item-title">Sistem Pengajuan Desa (SIPEDES)</h3>
                         <button type="button" class="btn view-project-btn">View Project</button>
@@ -249,7 +249,7 @@
 
                     <div class="portfolio-item">
                         <div class="portfolio-item-thumbnail">
-                            <img src="assets/img/portfolio/cagak.png" alt="portfolio item thumbnail">
+                            <img src="https://storage.googleapis.com/dicoding-project-404202.appspot.com/assets/img/portfolio/cagak.png" alt="portfolio item thumbnail">
                         </div>
                         <h3 class="portfolio-item-title">Catatan Gender dan Anak (Cagak)</h3>
                         <button type="button" class="btn view-project-btn">View Project</button>
@@ -287,7 +287,7 @@
 
                     <div class="portfolio-item">
                         <div class="portfolio-item-thumbnail">
-                            <img src="assets/img/portfolio/pemdes-ciuyah.png" alt="portfolio item thumbnail">
+                            <img src="https://storage.googleapis.com/dicoding-project-404202.appspot.com/assets/img/portfolio/pemdes-ciuyah.png" alt="portfolio item thumbnail">
                         </div>
                         <h3 class="portfolio-item-title">Sistem Informasi Pemerintahan Desa Ciuyah</h3>
                         <button type="button" class="btn view-project-btn">View Project</button>
@@ -404,7 +404,7 @@
     </div>
     <!-- Portfolio Item Details Popup End -->
 
-    <script src="assets/js/index.js"></script>
+    <script src="https://storage.googleapis.com/dicoding-project-404202.appspot.com/assets/js/index.js"></script>
 </body>
 
 </html>
