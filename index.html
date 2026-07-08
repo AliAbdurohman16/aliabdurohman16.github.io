@@ -1,31 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Ali Abdurohman</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Page Loader Start -->
     <div class="page-loader">
-        <div></div>
-        <div></div>
-        <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
     <!-- Page Loader End -->
 
     <!-- Background Circles Start -->
     <div class="bg-circles">
-        <div class="circle-1"></div>
-        <div class="circle-2"></div>
-        <div class="circle-3"></div>
-        <div class="circle-4"></div>
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
     </div>
     <!-- Background Circles End -->
 
@@ -35,413 +36,825 @@
 
     <!-- Main Start -->
     <div class="main hidden">
+      <!-- Header Start -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">Home</a></li>
+                  <li><a href="#about" class="nav-item link-item">About</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="apidocs.html" target="_blank" class="nav-item"
+                      >API Docs</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- Header End -->
 
-        <!-- Header Start -->
-        <header class="header">
-            <div class="container">
-                <div class="row flex-end">
-                    <button type="button" class="nav-toggler">
-                        <span></span>
-                    </button>
-                    <nav class="nav">
-                        <div class="nav-inner">
-                            <ul>
-                                <li><a href="#home" class="nav-item link-item">Home</a></li>
-                                <li><a href="#about" class="nav-item link-item">About</a></li>
-                                <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
-                                <li><a href="#contact" class="nav-item link-item">Contact</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+      <!-- Home Section Start  -->
+      <section class="home-section align-items-center" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Hello, I'm</p>
+              <h1>Ali Abdurohman</h1>
+              <h2>Web Developer & Backend Developer</h2>
+              <a href="#about" class="btn link-item">More About Me</a>
+              <a href="#portfolio" class="btn link-item">Portfolio</a>
+              <a href="apidocs.html" target="_blank" class="btn link-item"
+                >API Docs</a
+              >
             </div>
-        </header>
-        <!-- Header End -->
-
-        <!-- Home Section Start  -->
-        <section class="home-section align-items-center" id="home">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="home-text">
-                        <p>Hello, I'm</p>
-                        <h1>Ali Abdurohman</h1>
-                        <h2>Web Developer & Backend Developer</h2>
-                        <a href="#about" class="btn link-item">More About Me</a>
-                        <a href="#portfolio" class="btn link-item">Portfolio</a>
-                    </div>
-                    <div class="home-img">
-                        <div class="img-box">
-                            <img src="assets/img/profile/ali.jpeg" alt="profile-img">
-                        </div>
-                    </div>
-                </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="assets/img/profile/ali.jpeg" alt="profile-img" />
+              </div>
             </div>
-        </section>
-        <!-- Home Section End  -->
+          </div>
+        </div>
+      </section>
+      <!-- Home Section End  -->
 
-        <!-- About Section Star -->
-        <section class="about-section sec-padding" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="section-title">
-                        <h2>about me</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="about-img">
-                        <div class="img-box">
-                            <img src="assets/img/profile/about.jpeg" alt="about img">
-                        </div>
-                    </div>
-                    <div class="about-text">
-                        <p class="mb-3">
-                            Software Engineer with experience in building end-to-end applications in the healthcare, education, and blockchain sectors. Successfully developed 50+ ILP screening forms used by 40+ healthcare professionals, designed efficient databases, and implemented cloud and machine learning solutions on Google Cloud Platform. Skilled in designing RESTful APIs, UI/UX, and scalable cloud architectures, as well as collaborating across teams to deliver impactful technology solutions.
-                        </p>
-
-                        <h3>Skills</h3>
-                        <div class="skills">
-                            <div class="skill-item">Php</div>
-                            <div class="skill-item">Node.js</div>
-                            <div class="skill-item">Mysql</div>
-                            <div class="skill-item">Google Cloud</div>
-                            <div class="skill-item">Bootstrap</div>
-                            <div class="skill-item">Codeigniter</div>
-                            <div class="skill-item">Laravel</div>
-                            <div class="skill-item">Next.js</div>
-                        </div>
-
-                        <div class="about-tabs">
-                            <button type="button" class="tab-item active" data-target=#education>Education</button>
-                            <button type="button" class="tab-item" data-target=#experience>Experience</button>
-                        </div>
-
-                        <!-- Education Start -->
-                        <div class="tab-content active" id="education">
-                            <div class="timeline">
-                                <div class="timeline-item">
-                                    <span class="date">2021-2025</span>
-                                    <h4>Universitas Kuningan - <span>Informatics Engineering</span></h4>
-                                </div>
-                                <div class="timeline-item">
-                                    <span class="date">2018-2021</span>
-                                    <h4>SMK Negeri 4 Kuningan - <span>Software Engineering</span></h4>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Education End -->
-
-                        <!-- Experience Start -->
-                        <div class="tab-content" id="experience">
-                            <div class="timeline">
-                                <div class="timeline-item">
-                                    <span class="date">Dec 2024 - Now</span>
-                                    <h4>Fullstack Developer - <span>PT. GLOBAL EDUTIPA INFORMATIKA</span> - <span>Fulltime</span></h4>
-                                    <li>Performed maintenance and development of the Esimkes application to improve system stability and healthcare service features at community health centers (Puskesmas).</li>
-                                    <li>Analyzed the ILP screening system to optimize patient examination workflows and data accuracy.</li>
-                                    <li>Designed an efficient screening database structure, reducing query time by up to 25%.</li>
-                                    <li>Developed the ILP screening configuration feature, enabling dynamic adjustments according to Puskesmas requirements.</li>
-                                    <li>Built 50+ ILP screening forms used by 40+ healthcare professionals at Puskesmas, improving patient data input efficiency.</li>
-                                    <li>Automated the Family Card (Kartu Keluarga) data generation based on family status categories with official format ordering, reducing manual input errors.</li>
-                                </div>
-                                <div class="timeline-item">
-                                    <span class="date">Feb 2024 - Jul 2024</span>
-                                    <h4>Blockchain Web3 Developer - <span>Direktorat Jenderal Pendidikan Tinggi, Riset dan Teknologi Kemdikbudristek</span> - <span>Internship</span></h4>
-                                    <li>Designed ERD for a blockchain system to support cross-module data integration.</li>
-                                    <li>Contributed to UI/UX design by improving interface consistency, enhancing overall user experience.</li>
-                                    <li>Developed RESTful APIs for blockchain modules, enabling more efficient data exchange between services.</li>
-                                    <li>Created RESTful API documentation to simplify frontend integration and accelerate new developer onboarding.</li>
-                                    <li>Contributed to API integration with frontend, ensuring smooth data synchronization.</li>
-                                </div>
-                                <div class="timeline-item">
-                                    <span class="date">Aug 2023 - Jan 2024</span>
-                                    <h4>Cloud Computing - <span>Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</span> - <span>Independent Study</span></h4>
-                                    <li>Completed Cloud Computing certifications through Coursera, Google Cloud Engineer Learning Path, and Dicoding as part of the Bangkit Academy program.</li>
-                                    <li>Led the team in designing the concept and system architecture for the Capstone Project, delivering a cloud-based application integrated with Machine Learning on GCP.</li>
-                                    <li>Designed the Capstone application UI/UX using a user-centered approach, enhancing user engagement during the testing phase.</li>
-                                    <li>Developed RESTful APIs to support communication between the mobile application and the server hosted on GCP.</li>
-                                    <li>Implemented Google Cloud Platform (GCP) architecture to ensure system scalability and reliability.</li>
-                                    <li>Applied Machine Learning models on GCP to process user data in real time and improve the system’s prediction accuracy.</li>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Experience End -->
-
-                        <a href="assets/img/cv/AliAbdurohman-resume.pdf" target="_blank" class="btn">Download CV</a>
-                        <a href="#contact" class="btn link-item">Contact Me</a>
-
-                    </div>
-                </div>
+      <!-- About Section Star -->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>about me</h2>
             </div>
-        </section>
-        <!-- About Section End -->
-
-        <!-- Portfolio Section Start -->
-        <section class="portfolio-section sec-padding" id="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="section-title">
-                        <h2>Recent Work</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Portfolio Item Start -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="assets/img/portfolio/esimkes.png" alt="portfolio item thumbnail">
-                        </div>
-                        <h3 class="portfolio-item-title">Esimkes</h3>
-                        <button type="button" class="btn view-project-btn">View Details</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p class="mb-2">eSimkes stands for "Electronic Health Management Information System". This application is designed to manage and provide information related to management in the healthcare sector. eSimkes aims to enhance the efficiency, accuracy, and quality of healthcare services, as well as the digital processing and reporting of health data, by integrating with applications such as Primary Care (BPJS), RME (One Health), and collaborating with our partners across healthcare facilities (fasyankes) up to the district health office level.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Technologies used - <span>Html, Css, Javascript, Bootstrap, Laravel, Mysql, JQuery</span></li>
-                                    <li>Role - <span>Fullstack</span></li>
-                                    <li>View Online - <span><a href="https://esimkes.co.id/" target="_blank">esimkes.co.id</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="assets/img/portfolio/cahaya-raudhah.png" alt="portfolio item thumbnail">
-                        </div>
-                        <h3 class="portfolio-item-title">Cahaya Raudhah Cirendang</h3>
-                        <button type="button" class="btn view-project-btn">View Details</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p class="mb-2">This website is the platform for registering Umrah and Hajj travel services from PT. Cahaya Raudhah, Kuningan branch, located in Cirendang, offering a variety of attractive travel packages.</p>
-                            </div>                            
-                            <div class="general-info">
-                                <ul>
-                                    <li>Technologies used - <span>Html, Css, Javascript, Bootstrap, Laravel 11, Mysql, JQuery</span></li>
-                                    <li>Role - <span>Fullstack</span></li>
-                                    <li>View Online - <span><a href="http://cahayaraudhahcirendang.justnear.my.id/" target="_blank">cahayaraudhahcirendang.justnear.my.id</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="assets/img/portfolio/penjualan.png" alt="portfolio item thumbnail">
-                        </div>
-                        <h3 class="portfolio-item-title">Sinar Utama Furniture Sales Application</h3>
-                        <button type="button" class="btn view-project-btn">View Details</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p class="mb-2">This Sales Application is a data management system designed for a furniture store, enabling efficient product management, stock control, and sales tracking.</p>
-                            </div>                            
-                            <div class="general-info">
-                                <ul>
-                                    <li>Technologies used - <span>Html, Css, Javascript, Bootstrap, Laravel 11, Mysql, JQuery</span></li>
-                                    <li>Role - <span>Fullstack</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="assets/img/portfolio/prodigi.png" alt="portfolio item thumbnail">
-                        </div>
-                        <h3 class="portfolio-item-title">Prodigi</h3>
-                        <button type="button" class="btn view-project-btn">View Details</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p class="mb-2">Prodigi is the official company profile website of PT Prodigi Solusi Integrasi (Prodigi), a professional IT Integrator specializing in delivering innovative and integrated technology solutions.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Technologies used - <span>Html, Css, Javascript, Bootstrap, Laravel 11, Mysql</span></li>
-                                    <li>Role - <span>Fullstack</span></li>
-                                    <li>View Online - <span><a href="https://prodigisi.co.id/" target="_blank">prodigisi.co.id</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="assets/img/portfolio/xyzone.png" alt="portfolio item thumbnail">
-                        </div>
-                        <h3 class="portfolio-item-title">XYZONE MEDIA </h3>
-                        <button type="button" class="btn view-project-btn">View Details</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p class="mb-2">XYZONE Media is a website featuring the latest articles on various news and current events. This platform is designed to deliver accurate and relevant information to its readers.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Technologies used - <span>Html, Css, Javascript</span></li>
-                                    <li>Role - <span>Frontend</span></li>
-                                    <li>View Online - <span><a href="https://xyzonemedia.com/" target="_blank">xyzonemedia.com</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="assets/img/portfolio/dsertifikat.png" alt="portfolio item thumbnail">
-                        </div>
-                        <h3 class="portfolio-item-title">DSertifikat</h3>
-                        <button type="button" class="btn view-project-btn">View Details</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p class="mb-2">This platform allows users to create digital certificates in the form of NFTs (Non-Fungible Tokens), offering unparalleled transparency and authenticity in tracking academic and professional achievements. By utilizing blockchain technology, these certificates cannot be forged or altered, ensuring that the information listed is valid and trustworthy. Each digital certificate has a unique identity that can be publicly verified, enabling educational institutions, companies, and individuals to easily and quickly verify someone's accomplishments.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Technologies used - <span>NextJS, Solidity, Blockchain</span></li>
-                                    <li>Role - <span>Web3 Developer</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="assets/img/portfolio/singgasana.png" alt="portfolio item thumbnail">
-                        </div>
-                        <h3 class="portfolio-item-title">Singgasana Sports and Recreation Centre</h3>
-                        <button type="button" class="btn view-project-btn">View Details</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p class="mb-2">The Singgasana Sports website is a platform for booking sports tickets and facilities at Singgasana Pradana Residential Bandung.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Technologies used - <span>Html, Css, Javascript, JQuery Ajax, Bootstrap, Laravel 9, mysql</span></li>
-                                    <li>Role - <span>Fullstack</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="assets/img/portfolio/pemppa-kuningan.png" alt="portfolio item thumbnail">
-                        </div>
-                        <h3 class="portfolio-item-title">PEMPPA KUNINGAN</h3>
-                        <button type="button" class="btn view-project-btn">View Details</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p class="mb-2">The PEMPPA Kuningan website is an information platform for the innovative smartphone-based application designed to provide crucial support in combating violence against women and children.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Technologies used - <span>Html, Css, Javascript, JQuery Ajax, Bootstrap, Laravel 9, Mysql</span></li>
-                                    <li>Role - <span>Backend</span></li>
-                                    <li>View Online - <span><a href="https://pemppa.kuningankab.go.id/" target="_blank">pemppa.kuningankab.go.id</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="assets/img/portfolio/sipedes.png" alt="portfolio item thumbnail">
-                        </div>
-                        <h3 class="portfolio-item-title">Sistem Pengajuan Desa (SIPEDES)</h3>
-                        <button type="button" class="btn view-project-btn">View Details</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p class="mb-2">"The Village Submission System (SIPEDES)" is a digital project aimed at providing a solution for communities to submit necessary letters in the village. With SIPEDES, the community can directly submit these letters through the system, aiming to minimize queues at the village office.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Technologies used - <span>Html, Css, Javascript, JQuery Ajax, Bootstrap, Codeigniter 4, Mysql</span></li>
-                                    <li>Role - <span>Backend</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Portfolio Item End -->
-                </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="assets/img/profile/about.jpeg" alt="about img" />
+              </div>
             </div>
-        </section>
-        <!-- Portfolio Section End -->
+            <div class="about-text">
+              <p class="mb-3">
+                Backend Developer with hands-on experience in designing and
+                developing RESTful APIs, backend architectures, third-party
+                integrations, and CI/CD pipelines using GitHub Actions. Skilled
+                in Laravel, Node.js, MySQL, MongoDB, Linux, Nginx, VPS
+                deployment, and Google Cloud Platform (GCP). Proven ability to
+                lead application development projects, collaborate effectively
+                with cross-functional teams, and deliver secure, scalable, and
+                maintainable backend systems.
+              </p>
 
-        <!-- Contact Section Start -->
-        <section class="contact-section sec-padding" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="section-title">
-                        <h2>Contact Me</h2>
-                    </div>
+              <h3>Skills</h3>
+              <div class="skills">
+                <div class="skill-item">Php</div>
+                <div class="skill-item">Javascript</div>
+                <div class="skill-item">Bootstrap</div>
+                <div class="skill-item">Tailwind</div>
+                <div class="skill-item">Next.js</div>
+                <div class="skill-item">MySQL</div>
+                <div class="skill-item">MongoDB</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">Codeigniter</div>
+                <div class="skill-item">Laravel</div>
+                <div class="skill-item">Nginx</div>
+                <div class="skill-item">Linux</div>
+                <div class="skill-item">Google Cloud</div>
+              </div>
+
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  Education
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  Experience
+                </button>
+              </div>
+
+              <!-- Education Start -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2021-2025</span>
+                    <h4>
+                      Universitas Kuningan -
+                      <span>Informatics Engineering</span>
+                    </h4>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2018-2021</span>
+                    <h4>
+                      SMK Negeri 4 Kuningan - <span>Software Engineering</span>
+                    </h4>
+                  </div>
                 </div>
-                <div class="row">
-                    <div class="contact-form">
-                        <form action="#">
-                            <div class="row">
-                                <div class="input-group">
-                                    <input type="text" class="input-control" placeholder="Name" required>
-                                </div>
-                                <div class="input-group">
-                                    <input type="email" class="input-control" placeholder="Email" required>
-                                </div>
-                                <div class="input-group">
-                                    <input type="text" class="input-control" placeholder="Subject" required>
-                                </div>
-                                <div class="input-group">
-                                    <textarea class="input-control" placeholder="Message" required></textarea>
-                                </div>
-                                <div class="submit-btn">
-                                    <button type="submit" class="btn">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="contact-info">
-                        <div class="contact-info-item">
-                            <h3>Email</h3>
-                            <p>aliabdurohman16@gmail.com</p>
-                        </div>
-                        <div class="contact-info-item">
-                            <h3>Phone</h3>
-                            <p>085155126055</p>
-                        </div>
-                        <div class="contact-info-item">
-                            <h3>Follow Me</h3>
-                            <div class="social-media">
-                                <a href="https://www.instagram.com/aliabdurohman_/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/in/ali-abdurohman-1122791b2/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://github.com/AliAbdurohman16/" target="_blank"><i class="fab fa-github"></i></a>
-                                <a href="https://api.whatsapp.com/send?phone=6285155126055" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <!-- Education End -->
+
+              <!-- Experience Start -->
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">Oct 2025 - Jul 2026</span>
+                    <h4>
+                      Backend Developer -
+                      <span>PT. GAJAH NUSANTARA RAYA</span> -
+                      <span>Fulltime</span>
+                    </h4>
+                    <li>
+                      Led the development of 6 application projects by
+                      coordinating Mobile, Frontend, and Backend Developers to
+                      ensure projects were delivered on schedule, met business
+                      requirements, and adhered to quality standards.
+                    </li>
+                    <li>
+                      Developed and maintained RESTful APIs across six projects
+                      by following backend development best practices to ensure
+                      performance, reliability, and maintainability.
+                    </li>
+                    <li>
+                      Designed and implemented secure, scalable, and
+                      maintainable backend architectures aligned with business
+                      and technical requirements.
+                    </li>
+                    <li>
+                      Created and maintained API documentation using Postman,
+                      enabling seamless integration and improving collaboration
+                      between frontend, mobile, and third-party development
+                      teams.
+                    </li>
+                    <li>
+                      Built and managed CI/CD pipelines using GitHub Actions to
+                      automate the build, testing, and deployment processes,
+                      improving development efficiency.
+                    </li>
+                    <li>
+                      Deployed applications to Linux-based VPS environments and
+                      ensured stable, reliable performance in production.
+                    </li>
+                    <li>
+                      Configured and optimized Nginx as a web server and reverse
+                      proxy to enhance application performance, security, and
+                      availability.
+                    </li>
+                    <li>
+                      Collaborated with third-party service providers to
+                      integrate APIs, payment gateways, authentication services,
+                      and other external systems based on project requirements.
+                    </li>
+                    <li>
+                      Worked closely with cross-functional teams to gather
+                      requirements, troubleshoot technical issues, and ensure
+                      successful feature implementation.
+                    </li>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">Feb 2024 - Jul 2024</span>
+                    <h4>
+                      Blockchain Web3 Developer -
+                      <span
+                        >Direktorat Jenderal Pendidikan Tinggi, Riset dan
+                        Teknologi Kemdikbudristek</span
+                      >
+                      - <span>Internship</span>
+                    </h4>
+                    <li>
+                      Designed Entity Relationship Diagrams (ERDs) to support
+                      scalable blockchain system architecture and cross-module
+                      data integration.
+                    </li>
+                    <li>
+                      Collaborated with the UI/UX team to improve interface
+                      consistency and deliver a better user experience.
+                    </li>
+                    <li>
+                      Developed and maintained RESTful APIs for blockchain
+                      modules, enabling secure and efficient communication
+                      between services.
+                    </li>
+                    <li>
+                      Authored and maintained comprehensive API documentation
+                      using industry best practices, simplifying frontend
+                      integration and reducing onboarding time for new
+                      developers.
+                    </li>
+                    <li>
+                      Worked closely with Frontend Developers to integrate APIs,
+                      troubleshoot integration issues, and ensure reliable data
+                      synchronization.
+                    </li>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">Aug 2023 - Jan 2024</span>
+                    <h4>
+                      Cloud Computing Cohort -
+                      <span
+                        >Bangkit Academy led by Google, Tokopedia, Gojek, &
+                        Traveloka</span
+                      >
+                      - <span>Independent Study</span>
+                    </h4>
+                    <li>
+                      Completed the Google Cloud Engineer Learning Path through
+                      Coursera and Dicoding as part of the Bangkit Academy
+                      program.
+                    </li>
+                    <li>
+                      Led the design and development of a cloud-native Capstone
+                      project by collaborating with multidisciplinary team
+                      members and integrating Machine Learning services on
+                      Google Cloud Platform (GCP).
+                    </li>
+                    <li>
+                      Designed the application's UI/UX following User-Centered
+                      Design (UCD) principles to improve usability and user
+                      experience.
+                    </li>
+                    <li>
+                      Developed and maintained RESTful APIs to facilitate secure
+                      communication between the mobile application and backend
+                      services.
+                    </li>
+                    <li>
+                      Designed and implemented a scalable architecture on Google
+                      Cloud Platform (GCP), ensuring high availability,
+                      reliability, and maintainability.
+                    </li>
+                    <li>
+                      Integrated Machine Learning models into the backend to
+                      process user data in real time and deliver accurate
+                      prediction results.
+                    </li>
+                  </div>
                 </div>
+              </div>
+              <!-- Experience End -->
+
+              <a
+                href="assets/img/cv/AliAbdurohman-resume.pdf"
+                target="_blank"
+                class="btn"
+                >Download CV</a
+              >
+              <a href="#contact" class="btn link-item">Contact Me</a>
             </div>
-        </section>
-        <!-- Contact Section End -->
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
 
+      <!-- Portfolio Section Start -->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Recent Work</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="assets/img/portfolio/esimkes.png"
+                  alt="portfolio item thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Esimkes</h3>
+              <button type="button" class="btn view-project-btn">
+                View Details
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p class="mb-2">
+                    eSimkes stands for "Electronic Health Management Information
+                    System". This application is designed to manage and provide
+                    information related to management in the healthcare sector.
+                    eSimkes aims to enhance the efficiency, accuracy, and
+                    quality of healthcare services, as well as the digital
+                    processing and reporting of health data, by integrating with
+                    applications such as Primary Care (BPJS), RME (One Health),
+                    and collaborating with our partners across healthcare
+                    facilities (fasyankes) up to the district health office
+                    level.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used -
+                      <span
+                        >Html, Css, Javascript, Bootstrap, Laravel, Mysql,
+                        JQuery</span
+                      >
+                    </li>
+                    <li>Role - <span>Fullstack</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="https://esimkes.co.id/" target="_blank"
+                          >esimkes.co.id</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="assets/img/portfolio/cahaya-raudhah.png"
+                  alt="portfolio item thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Cahaya Raudhah Cirendang</h3>
+              <button type="button" class="btn view-project-btn">
+                View Details
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p class="mb-2">
+                    This website is the platform for registering Umrah and Hajj
+                    travel services from PT. Cahaya Raudhah, Kuningan branch,
+                    located in Cirendang, offering a variety of attractive
+                    travel packages.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used -
+                      <span
+                        >Html, Css, Javascript, Bootstrap, Laravel 11, Mysql,
+                        JQuery</span
+                      >
+                    </li>
+                    <li>Role - <span>Fullstack</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="http://cahayaraudhahcirendang.justnear.my.id/"
+                          target="_blank"
+                          >cahayaraudhahcirendang.justnear.my.id</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="assets/img/portfolio/penjualan.png"
+                  alt="portfolio item thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">
+                Sinar Utama Furniture Sales Application
+              </h3>
+              <button type="button" class="btn view-project-btn">
+                View Details
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p class="mb-2">
+                    This Sales Application is a data management system designed
+                    for a furniture store, enabling efficient product
+                    management, stock control, and sales tracking.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used -
+                      <span
+                        >Html, Css, Javascript, Bootstrap, Laravel 11, Mysql,
+                        JQuery</span
+                      >
+                    </li>
+                    <li>Role - <span>Fullstack</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="assets/img/portfolio/prodigi.png"
+                  alt="portfolio item thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Prodigi</h3>
+              <button type="button" class="btn view-project-btn">
+                View Details
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p class="mb-2">
+                    Prodigi is the official company profile website of PT
+                    Prodigi Solusi Integrasi (Prodigi), a professional IT
+                    Integrator specializing in delivering innovative and
+                    integrated technology solutions.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used -
+                      <span
+                        >Html, Css, Javascript, Bootstrap, Laravel 11,
+                        Mysql</span
+                      >
+                    </li>
+                    <li>Role - <span>Fullstack</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="https://prodigisi.co.id/" target="_blank"
+                          >prodigisi.co.id</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="assets/img/portfolio/xyzone.png"
+                  alt="portfolio item thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">XYZONE MEDIA</h3>
+              <button type="button" class="btn view-project-btn">
+                View Details
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p class="mb-2">
+                    XYZONE Media is a website featuring the latest articles on
+                    various news and current events. This platform is designed
+                    to deliver accurate and relevant information to its readers.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used - <span>Html, Css, Javascript</span>
+                    </li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="https://xyzonemedia.com/" target="_blank"
+                          >xyzonemedia.com</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="assets/img/portfolio/dsertifikat.png"
+                  alt="portfolio item thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">DSertifikat</h3>
+              <button type="button" class="btn view-project-btn">
+                View Details
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p class="mb-2">
+                    This platform allows users to create digital certificates in
+                    the form of NFTs (Non-Fungible Tokens), offering
+                    unparalleled transparency and authenticity in tracking
+                    academic and professional achievements. By utilizing
+                    blockchain technology, these certificates cannot be forged
+                    or altered, ensuring that the information listed is valid
+                    and trustworthy. Each digital certificate has a unique
+                    identity that can be publicly verified, enabling educational
+                    institutions, companies, and individuals to easily and
+                    quickly verify someone's accomplishments.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used -
+                      <span>NextJS, Solidity, Blockchain</span>
+                    </li>
+                    <li>Role - <span>Web3 Developer</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="assets/img/portfolio/singgasana.png"
+                  alt="portfolio item thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">
+                Singgasana Sports and Recreation Centre
+              </h3>
+              <button type="button" class="btn view-project-btn">
+                View Details
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p class="mb-2">
+                    The Singgasana Sports website is a platform for booking
+                    sports tickets and facilities at Singgasana Pradana
+                    Residential Bandung.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used -
+                      <span
+                        >Html, Css, Javascript, JQuery Ajax, Bootstrap, Laravel
+                        9, mysql</span
+                      >
+                    </li>
+                    <li>Role - <span>Fullstack</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="assets/img/portfolio/pemppa-kuningan.png"
+                  alt="portfolio item thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">PEMPPA KUNINGAN</h3>
+              <button type="button" class="btn view-project-btn">
+                View Details
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p class="mb-2">
+                    The PEMPPA Kuningan website is an information platform for
+                    the innovative smartphone-based application designed to
+                    provide crucial support in combating violence against women
+                    and children.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used -
+                      <span
+                        >Html, Css, Javascript, JQuery Ajax, Bootstrap, Laravel
+                        9, Mysql</span
+                      >
+                    </li>
+                    <li>Role - <span>Backend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://pemppa.kuningankab.go.id/"
+                          target="_blank"
+                          >pemppa.kuningankab.go.id</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="assets/img/portfolio/sipedes.png"
+                  alt="portfolio item thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">
+                Sistem Pengajuan Desa (SIPEDES)
+              </h3>
+              <button type="button" class="btn view-project-btn">
+                View Details
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p class="mb-2">
+                    "The Village Submission System (SIPEDES)" is a digital
+                    project aimed at providing a solution for communities to
+                    submit necessary letters in the village. With SIPEDES, the
+                    community can directly submit these letters through the
+                    system, aiming to minimize queues at the village office.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used -
+                      <span
+                        >Html, Css, Javascript, JQuery Ajax, Bootstrap,
+                        Codeigniter 4, Mysql</span
+                      >
+                    </li>
+                    <li>Role - <span>Backend</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="assets/img/portfolio/prodigi.png"
+                  alt="API documentation thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">API Documentation</h3>
+              <a href="apidocs.html" class="btn" target="_blank"
+                >Open API Docs</a
+              >
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p class="mb-2">
+                    Swagger-style static API documentation generated from
+                    Postman collections: Backend Visa, Satu Ekspedisi, API
+                    Backend APP STrade, Satu Agen, Love Birds Trade, and
+                    Goldlane.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used -
+                      <span>HTML, CSS, JavaScript, Postman Collection</span>
+                    </li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="apidocs.html" target="_blank"
+                          >Open Swagger-style API Docs</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+
+      <!-- Contact Section Start -->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form action="#">
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="input-control"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      class="input-control"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="input-control"
+                      placeholder="Subject"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      class="input-control"
+                      placeholder="Message"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>aliabdurohman16@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>085155126055</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Follow Me</h3>
+                <div class="social-media">
+                  <a
+                    href="https://www.instagram.com/aliabdurohman_/"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/ali-abdurohman-1122791b2/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="https://github.com/AliAbdurohman16/" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=6285155126055"
+                    target="_blank"
+                    ><i class="fab fa-whatsapp"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section End -->
     </div>
     <!-- Main End -->
 
     <!-- Portfolio Item Details Popup Start -->
     <div class="portfolio-popup">
-        <div class="pp-inner">
-            <div class="pp-content">
-                <div class="pp-header">
-                    <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
-                    <div class="pp-thumbnail">
-                        <img src="" alt="portfolio popup">
-                    </div>
-                    <h3></h3>
-                </div>
-                <div class="pp-body">
-                </div>
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="" alt="portfolio popup" />
             </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
         </div>
+      </div>
     </div>
     <!-- Portfolio Item Details Popup End -->
 
     <script src="assets/js/index.js"></script>
-</body>
-
+  </body>
 </html>

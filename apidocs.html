@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>API Documentation - Ali Abdurohman</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="docs-shell">
+      <header class="topbar">
+        <div class="topbar-inner">
+          <div class="brand">
+            <div class="logo">API</div>
+            <div>
+              API Documentation
+              <div class="sub">
+                API documentation generated from my Postman Collection,
+                showcasing the endpoints, request parameters, and response
+                structures implemented during development.
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="layout">
+        <aside class="sidebar">
+          <h3>Collections</h3>
+          <div class="collection-menu" id="collectionNav"></div>
+          <h3 style="margin-top: 22px">Folders</h3>
+          <div id="folderNav"></div>
+        </aside>
+        <main class="content">
+          <section class="hero">
+            <h1>API Documentation</h1>
+            <p class="muted">
+              Semua endpoint dari collection terbaru yang dikirim digabung dalam
+              satu halaman. Klik menu collection/folder di samping untuk filter
+              dan menu aktif otomatis mengikuti pilihan.
+            </p>
+            <div class="stats" id="stats"></div>
+          </section>
+          <div class="toolbar">
+            <input
+              id="search"
+              class="search"
+              placeholder="Cari endpoint, URL, folder, method..."
+            /><select id="methodFilter">
+              <option value="">All Methods</option>
+              <option>GET</option>
+              <option>POST</option>
+              <option>PUT</option>
+              <option>PATCH</option>
+              <option>DELETE</option></select
+            ><select id="collectionFilter">
+              <option value="">All Collections</option>
+            </select>
+          </div>
+          <div id="docs"></div>
+          <div class="footer">Generated API docs • Ali Abdurohman</div>
+        </main>
+      </div>
+    </div>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/apidocs.js"></script>
+  </body>
+</html>
